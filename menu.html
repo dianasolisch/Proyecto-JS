@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/img/Favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/estiloMenu.css">
+    <title>Bienvenid@</title>
+</head>
+<body>
+    <div id="cont-titulo">
+        <h1 id="titulo">Bienvenido a tu banca electrónica</h1>
+    </div>
+
+    <div id="modalLuisa">
+        <form id="luisa">
+            <h3 class="txt">Hola Luisa</h3>
+            <label for="">Saldo Actual</label> 
+            <input type="text" name="" id="saldoActualL" class="input" value="   10"> 
+
+            <input type="text" placeholder="  ingrese cantidad" name="" id="cantidadAIngresarL" class="input"> 
+
+            <input type="button" value="Ingresar monto a Luisa" onclick="ingresarLuisa();" id="btnIngresarLuisa" class="boton"> 
+            <input type="button" value="Retirar monto a Luisa" onclick="retirarLuisa();" id="btnrRetiroLuisa" class="boton"> 
+        </form> 
+    </div>
+
+        
+    <div id="modalAdriana">
+        <form id="adriana">
+            <h3 class="txt">Hola Adriana</h3>
+            <label for="">Saldo Actual</label> 
+            <input type="text" name="" id="saldoActualA" class="input" value="   10"> 
+    
+            <input type="text" placeholder="  ingrese cantidad" name="" id="cantidadAIngresarA" class="input"> 
+                
+            <input type="button" value="Ingresar monto a Adriana" onclick="ingresarAdriana();" id="btnIngresarAdriana" class="boton"> 
+            <input type="button" value="Retirar monto a Adriana" onclick="retirarAdriana();" id="btnrRetiroAdriana" class="boton"> 
+        </form>
+    </div>
+
+    <div id="modalFidel">
+        <form id="fidel">
+            <h3 class="txt">Hola Fidel</h3>
+            <label for="">Saldo Actual</label> 
+            <input type="text" name="" id="saldoActualF" class="input" value="   10"> 
+    
+            <input type="text" placeholder="  ingrese cantidad" name="" id="cantidadAIngresarF" class="input"> 
+                
+            <input type="button" value="Ingresar monto a Fidel" onclick="ingresarFidel();" id="btnIngresarFidel" class="boton"> 
+            <input type="button" value="Retirar monto a Fidel" onclick="retirarFidel();" id="btnrRetiroFidel" class="boton"> 
+        </form>
+    </div>
+    <script src="js/movimientos.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@732&display=swap" rel="stylesheet">
+</body>
+</html>

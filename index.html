@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/img/favicon.png">
+    <link rel="stylesheet" href="/css/style.css"> 
+    <title>Piggy Bank</title>
+</head>
+<body>
+    <header class="padre" id="contenedor-padre">
+        <div id="contenedorlogo">
+            <img src="/img/logopiggy.png" id="logo">
+        </div>
+    </header>
+    <div id="contenedor-form">
+        <form id="form">
+            <div id="cont-image">
+                <img src="img/candado.png" id="candado" alt="">
+            </div>
+            <div class="contendor-input" id="inputU">
+                <input type="text" name="user" placeholder="   usuario" class="input" id="usuario"><br>
+            </div>
+            <div class="contenedor-input" id="inputC">
+                <input type="password" name="pass" placeholder="   contraseña" class="input" id="contraseña"> 
+            </div>
+            <div>
+               <label><input type="checkbox" value="Recordar usuario" id=""> Recordar usuario </label> 
+            </div>
+            <div id="boton-iniciar">
+                <input type="button" onclick="login(this.form);" value=" Iniciar sesión "
+                class="boton">
+            </div>
+        </form>
+    </div>
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@732&display=swap" rel="stylesheet">
+    <script src="/js/login.js"></script>
+</body>
+</html>
