@@ -2,19 +2,19 @@
 function login(form){
     if(form.user.value == "Luisa"){
         if(form.pass.value ==  "holamundo1807"){
-            location = "/html/menuLuisa.html";
+            location = "menu.html";
         }else{
             alert("Contraseña incorrecta")
         }
     }else if(form.user.value == "Adriana"){
         if(form.pass.value == "contraseña6511"){
-            location = "/html/menuAdriana.html";
+            location = "menu.html";
         }else{
             alert("Contraseña incorrecta")
         }
     }else if(form.user.value == "Fidel"){
         if(form.pass.value == "0731hunter"){
-            location = "/html/menuFidel.html";
+            location = "menu.html";
         }else{
             alert("Contraseña incorrecta")
         }
@@ -22,5 +22,3 @@ function login(form){
         alert("Por favor, ingresa un usuario válido.")
     };
 };
-
-
